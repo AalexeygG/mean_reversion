@@ -25,7 +25,7 @@ Exit breakdown:  natural=11, end-of-day=1
 
 ```
 bks_test/
-├── data/                     # parquet-файлы логов MOEX (не в репозитории)
+├── data/                     # parquet-файлы логов MOEX
 ├── outputs/                  # HTML-визуализации (.gitignore)
 ├── orderbook.py              # реконструкция стакана + mid/book series
 ├── analysis.py               # расчёт спреда + статичный график
@@ -41,10 +41,6 @@ bks_test/
 ```bash
 # зависимости
 pip3 install -r requirements.txt
-
-# положить parquet-файлы в data/
-#   data/20250610_SBER.parquet
-#   data/SBERF_2025_06_10.parquet
 
 # полный pipeline (стакан + спред + бэктест)
 python3 main.py
