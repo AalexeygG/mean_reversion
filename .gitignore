@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.env
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+outputs/*.html
+outputs/*.png
+
+# personal
+*.docx
+p.md
+p.pdf
+p.html
+docs/generate_docx.py
+data/req.txt
